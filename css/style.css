@@ -80,11 +80,14 @@ main{
     flex-direction: column ;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 33vw;
     height: 60vh;
-    top: 20vh;
+    padding-top: 40vh;
 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 main>div{
@@ -118,8 +121,7 @@ main>div>img{
 
 #buscador>p{
     color: grey;
-    position: absolute;
-    left: 6rem;
+    
 }
 
 /* atajos */
@@ -174,7 +176,7 @@ main>div>img{
     font-size: smaller;
 
     position: absolute;
-    bottom: -41rem;
+    bottom: -14rem;
     right: 1rem;
     
 }
